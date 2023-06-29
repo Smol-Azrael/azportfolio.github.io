@@ -1,0 +1,164 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>S.Mog_GRAPH 130 - HTML5-Elements</title>
+<link href="../styles/html5-elements.css" rel="stylesheet" type="text/css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Parisienne&display=swap" rel="stylesheet">
+<link href="../styles/navigation.css" rel="stylesheet" type="text/css">
+</head>
+
+<body style="background-color: darkseagreen"><!-- #BeginLibraryItem "/Library/navigation.lbi" -->
+<nav>
+    <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="/pages/theatre.html">Theater bill</a></li>
+        <li><a href="/pages/history.html">History</a></li>
+        <li><a href="/pages/stew-recipe.html">Stew Recipe</a></li>
+        <li><a href="/pages/cascades.html">Cascades</a></li>
+		<li><a href="/pages/html5-elements.html">HTML5</a></li>
+		<li><a href="/pages/optimizing-images.html">Images</a></li>
+		<li><a href="/pages/responsive-research.html">Fluid Design</a></li>
+		<li><a href="/pages/grids.html">Final_Try</a></li>
+		<li><a href="/pages/grids_demo.html">Final_Demo</a></li>
+    </ul>
+</nav><!-- #EndLibraryItem --><div id="contents">
+<h1><stonrg>Research Assignment</stonrg></h1>
+
+<div id="toc">
+<h2>Table of Contents</h2>
+  <ul>
+    <li><a href="#header">Header</a></li>
+    <li><a href="#nav">Nav</a></li>
+    <li><a href="#aside">Aside</a></li>
+    <li><a href="#article">Article</a></li>
+    <li><a href="#section">Section</a></li>
+    <li><a href="#figure">Figure</a></li>
+    <li><a href="#figcaption">Figcaption</a></li>
+    <li><a href="#footer">Footer</a></li>
+  </ul>
+</div>
+
+<div id="body_text">
+
+<h2 id="header">Header</h2>
+	<p>&#8226; The header tag is used to defines the header of a document or specific section. This tag uses at the beginning of the contents of the collection of the navigation links.</p>
+	
+<div class="example">
+<p>Example</p>
+<pre>&lt;body&gt;
+    &lt;header&gt;
+        &lt;h1&gt;This works fine&lt;/h1&gt;
+        &lt;p&gt;Research is going well so far.&lt;/p&gt;
+    &lt;/header&gt;
+&lt;/body&gt;</pre>
+</div>
+<br>
+
+
+<h2 id="nav">Nav</h2>
+    <p>&#8226; The nav tag uses to define the collection of the links to the current page, or the other part of the page. Usually used to go with menu, index, or table of context. Also, the screen reader uses a nav tag to decide the to skip or not on the content at the first render for the people who cannot read.</p>
+
+<div class="example">
+	<p>Example</p>
+<pre>&lt;nav&gt; 
+    &lt;a href="../index"&gt;Index&lt;a&gt;
+    &lt;a href="../page/cascades.html"&gt;Cascades&lt;a&gt;
+    &lt;a href="../page/history.html"&gt;History&lt;a&gt;
+&lt;/nav&gt;</pre>
+</div>
+<br>
+
+<h2 id="aside">Aside</h2>
+    <p>&#8226; The aside tag can be used to define the contents that connect to the main article but can be separated from it. It often used in the article that sits on the side.</p>
+	
+<div class="example">
+<p>Example</p>
+<pre>&lt;p&gt;Some new article about popsong.&lt;/p&gt;
+
+&lt;aside&gt;
+&lt;h4&gt;Pop song&lt;/h4&gt;
+&lt;p&gt;The general information of the popsong.&lt;/p&gt;
+&lt;/aside&gt;</pre>
+</div>
+<br>
+
+<h2 id="article">Article</h2>
+    <p>&#8226; The article tag uses to define the article that can be separated completely alone from other articles.</p>
+	
+<div class="example">
+<p>Example</p>
+<pre>&lt;article&gt;
+&lt;h2&gt;Index&lt;/h2&gt;
+&lt;p&gt;The beginning page that simiply shows the basic concept.&lt;/p&gt;
+&lt;/article&gt;
+
+&lt;article&gt;
+&lt;h2&gt;Page&lt;/h2&gt;
+&lt;p&gt;The collection fo the basic HTML page.&lt;/p&gt;
+&lt;/article&gt;
+
+&lt;article&gt;
+&lt;h2&gt;CSS&lt;/h2&gt;
+&lt;p&gt;The style sheet that makes HTML page clean and nice.&lt;/p&gt;
+&lt;/article&gt;
+</pre>
+</div>
+<br>
+
+<h2 id="section">Section</h2>
+    <p>&#8226; The section tag uses to define the independent article on the HTML document.</p>
+	
+<div class="example">
+<p>Example</p>
+<pre>&lt;section&gt;
+&lt;h2&gt;Low-poly Object&lt;/h2&gt;
+&lt;p&gt;Low-poly Object refers to polygon mesh in modeling with small amount of polygons.&lt;/p&gt;
+&lt;/section&gt;
+
+&lt;section&gt;
+&lt;h2&gt;High-poly Object&lt;/h2&gt;
+&lt;p&gt;High-poly Object refers to polygon mesh in modeling with great amount of polygon.&lt;/p&gt;
+&lt;/section&gt;</pre>
+</div>
+<br>
+
+<h2 id="figure">Figure</h2>
+    <p>&#8226; The figure tag uses to specifies the independent contents like the diagram, illustrate, or image. The figure does have a connection with the main article, but the figure content is usually isolated from the articles and the position should not affect the main article's readability.</p>
+
+
+<h2 id="figcaption">Figcaption</h2>
+    <p>&#8226; The figcaption used to describe and help the viewers to understand what is the figure item is telling to the viewer.</p>
+	
+<div class="example">
+<p>Example</p>
+<pre>&lt;figure&gt;
+&lt;img scr="../photo/06843_jet.jpg" alt="Double jets flying"&gt;
+&lt;figcaption&gt;Double jets cross flying scene&lt;/figcaption&gt;
+&lt;/figure&gt;</pre>
+</div>
+<br>
+	
+<h2 id="footer">Footer</h2>
+    <p>&#8226; The footer tag uses to identify information like author, copyright, contact, sitemap, and etc. </p>
+	
+<div class="example">
+<p>Example</p>
+<pre>&lt;footer&gt;
+&lt;p&gt;Creator : AzraelModeling 2022.&lt;/p&gt;
+&lt;p&gt;Insta : @azraelmodeling&lt;/p&gt;
+&lt;p&gt;&lt;a href="mailto:azraelmodeling@gmail.com"&gt;Email to creator.&lt;/a&gt;&lt;/p&gt;
+&lt;/footer&gt;</pre>
+</div>
+</div>
+	
+<p><a href="#toc" id="top">Top</a></p>
+</div>
+	
+<footer>
+<p>
+SeongJun Mog 2021. Everett Community College, Graph 130, web coding project.</p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+h1 {
+	font-family: 'Parisienne', cursive;
+	font-size: 45px;
+}
+
+#contents {
+	width: 750px;
+	margin: auto;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-family: 'Lora', serif;
+}
+
+#toc {
+	display: table;
+	background-color:lightgray;
+	margin-bottom: 15px;
+	padding: 10px;
+	width: auto;
+}
+
+#toc ul {
+	font-size: 18px;
+}
+
+a {
+	text-decoration: none;
+}
+
+#body_text {
+	background-color: lightgray;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 10px 20px 10px 20px;
+	width: 710px;
+}
+
+p {
+	font-size: 16px;
+}
+
+pre {
+	font-size: 14px;
+	display: block;
+	background-color: aliceblue;
+}
+
+#top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(0,0,0,0.30);
+  color: hsla(0,0%,100%,0.75);
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+#top:hover {
+  background-color: #1A1A1A;
+}
+
+footer {
+	color: black;
+	padding-left: 10px;
+}
+
+footer p {
+	font-size: 10px;
+}
