@@ -3,6 +3,7 @@
 :root {
     --white: #F2F0F0;
     --text-color: #211C40;
+    --imgbackcolor: rgba(56, 72, 117, 1);
 }
 
 html, body {
@@ -33,11 +34,6 @@ header > nav > .container {
     height: 100%;
 }
 
-.mainland img{
-    max-height: 700px;
-    max-width: 1180px;
-}
-
 header button{
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -49,6 +45,7 @@ header button{
     font-size: 1rem;
     text-align: center;
     text-decoration: none;
+    background-color: var(--white);
 
     display: inline-flex;
     flex-direction: column;
@@ -109,7 +106,52 @@ header .dropboxBtn span:nth-child(3) {
     position: relative;
 }
 
-header button img {
-    max-width: 100%;
+.mainland {
+    display: flex;
+    justify-content: space-between;
+    
+    height: 800px;
+    margin: 0 auto;
 }
 
+.pfp {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+
+    width: 109.9375rem;
+    margin: 0 auto;
+    gap: 1.875rem;
+}
+
+.pfp img{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  
+    width: 100%;
+    height: 700px;
+    gap: 1.875rem;
+
+    max-height: 700px;
+    max-width: 525px;
+}
+
+div h1 {
+    width: 34.9375rem;
+    flex-shrink: 0;
+    color:var(--text-color);
+    font-size: 7.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 100%;
+}
+
+.spliter {
+    width: 82.5rem;
+    height: 0rem;
+    flex-shrink: 0;
+
+    stroke-width: 1px;
+    stroke: var(--text-color)
+}
