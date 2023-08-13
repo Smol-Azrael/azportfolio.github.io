@@ -194,8 +194,14 @@ header .dropboxBtn span:nth-child(3) {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 40px 30px;
     padding: 0;
-    grid-auto-rows: minmax(440px, auto);
+    /* grid-auto-rows: minmax(440px, auto); */
     list-style: none;
+}
+
+.wrapper > .grid-contents img {
+    width: 100%;
+    object-fit: contain;
+    height: 420px;
 }
 
 .wrapper ul {
@@ -205,14 +211,25 @@ header .dropboxBtn span:nth-child(3) {
 }
 
 .titletext {
-    display: flex;
+    display: grid;
+    grid-template-columns: calc(100% - 4.5em) auto;
     justify-content: space-between;
     height: 30px;
-    align-items: flex-start;
-    align-content: space-between;
-    flex-wrap: wrap;
     font-size: 32px;
     font-weight: 500;
+    margin-top: 10px;
+    gap: .5em
+}
+
+.titletext > span {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    word-break: keep-all;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    min-height: 34px;
 }
 
 .titletext span:nth-child(1) {
@@ -223,26 +240,26 @@ header .dropboxBtn span:nth-child(3) {
     color: var(--text-color2);
 }
 
-.img11 {
+/* .img11 {
     width: 420px;
     height: 420px;
     margin-bottom: 20px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .img21 {
     width: 870px;
     height: 420px;
     margin-bottom: 20px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .img31 {    
     max-height: 420px;
-    width: 1320px;
+    width: 100%;
     margin-bottom: 20px;
     object-fit: scale-down;
-}
+} */
 
 .one {
     grid-column: 1 / 2;
