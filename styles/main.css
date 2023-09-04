@@ -315,7 +315,7 @@ footer {
 h1.title {
     font-size: 64px;
     font-weight: 500;
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: center;
 }
 .content {
@@ -383,4 +383,12 @@ a.next {
 
 .blogpost {
     display: grid;
+    grid-template-columns: calc(100% - 24%) auto;
+    justify-content: center;
+    font-weight: 500;
+    margin-top: 10px;
+    gap: 1.2em;
+    font-size: 1.1rem;
+    align-items: center;
+    line-height: 1.4rem;
 }

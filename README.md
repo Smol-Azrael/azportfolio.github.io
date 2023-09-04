@@ -1,34 +1,8 @@
-# azportfolio.github.io
+할일 리스트.list
 
-md = markdown
+0. KR / ENG 페이지 확립화
+1. 작업물 포스트 작성 및 영문본 작업
+2. 필요한 사진 색상 보정 작업및 사이즈 조절
+3. grid 사용을 통한 글마다 이미지 갤러리 및 모달 작업.
 
-# h1
-## h2
-### h3 .... etc
-
-```c
-#include <stdio.h>
-
-int main(void) {
- printf("Hello World!");
-}
-```
-
-[Hyperlink Address](actuallink)
-
-* Order
-  * order1
-  * order2
-  * order3
-    * mini 1
-    * mini 2
-  * order 1
-
-> 인용 구문사용시 이녀석을 사용할것
-
-테이블은 이녀석을
-가|나|다|라
--|-|-|-|
-1|2|3|4|
-
-**강조** 와 ~~취소선~~0
+첫 작업물부터 리워크 프로젝트 시작.
