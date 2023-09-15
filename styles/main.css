@@ -212,7 +212,7 @@ header .dropboxBtn span:nth-child(3) {
 
 .titletext {
     display: grid;
-    grid-template-columns: calc(100% - 4.5em) auto;
+    grid-template-columns: calc(100% - 3em) auto;
     justify-content: space-between;
     height: 30px;
     font-size: 32px;
@@ -221,7 +221,7 @@ header .dropboxBtn span:nth-child(3) {
     gap: .5em
 }
 
-.titletext > span {
+.titletext > span:not(:last-child) {
     width: 100%;
     text-overflow: ellipsis;
     overflow: hidden;
@@ -240,28 +240,46 @@ header .dropboxBtn span:nth-child(3) {
     color: var(--text-color2);
 }
 
-.arc00005 {
+/* Grid Row */
+
+    .arc00006 {
     grid-column: 1 / 2;
     grid-row: 1;
-}
+    }
 
-.arc00004 {
-    grid-column: 2 / 4;
-    grid-row: 1;
-}
+    .arc00005 {
+        grid-column: 1 / 3;
+        grid-row: 2;
+    }
 
-.arc00003 {
-    grid-column: 1 / 2;
-    grid-row: 2;
-}
-.arc00002 {
-    grid-column: 2 / 4;
-    grid-row: 2;
-}
-.arc00001 {
-    grid-column: 1 / 4;
-    grid-row: 3;
-}
+    .arc00004 {
+        grid-column: 3 / 4;
+        grid-row: 2;
+    }
+
+    .arc00003 {
+        grid-column: 1 / 3;
+        grid-row: 3;
+    }
+    .arc00002 {
+        grid-column: 3 / 4;
+        grid-row: 3;
+    }
+    .arc00001 {
+        grid-column: 1 / 4;
+        grid-row: 4;
+    }
+    .arc00001 > .titletext{
+        grid-template-columns: calc(100% - 6em) auto;
+    }
+    .arc00000 {
+        grid-column: 1 / 4;
+        grid-row: 5;
+    }
+    .arc00000 > .titletext{
+        grid-template-columns: calc(100% - 12em) auto;
+    }
+/* Grid Row End */
 
 .abouttext {
     margin-top: 40px;
