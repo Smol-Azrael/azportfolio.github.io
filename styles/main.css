@@ -401,12 +401,47 @@ a.next {
 
 .blogpost {
     display: grid;
-    grid-template-columns: calc(100% - 24%) auto;
+    grid-template-columns: calc(100% - 25%) auto;
     justify-content: center;
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 10px;
-    gap: 1.2em;
     font-size: 1.1rem;
     align-items: center;
-    line-height: 1.4rem;
+    line-height: 2rem;
 }
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 5px;
+    justify-content: center;
+}
+
+.column {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
