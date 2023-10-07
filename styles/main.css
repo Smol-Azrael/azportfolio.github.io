@@ -336,6 +336,13 @@ h1.title {
     padding: 50px 0;
     text-align: center;
 }
+
+h2.subtitle {
+    font-size: 18px;
+    font-weight: 300;
+    text-align: right;
+}
+
 .content {
     padding-top: 60px;
     border-top: 1px solid #000;
